@@ -1,23 +1,6 @@
 "use client";
 
-/**
- * SundaySchool.jsx
- * سكشن "مدارس الأحد" — بنفس هوية موقع كنيسة السيدة العذراء مريم والأنبا كاراس السائح
- * (كحلي داكن #10193A + ذهبي #F2B705 + خلفية كريمية فاتحة، بطاقات بيضاء بحواف مقوّسة
- *  مستوحاة من شكل الهيكل/الأيقونسطاس في صورة الهيرو).
- *
- * التبعيات المطلوبة (نفّذ الأمر التالي داخل مشروعك):
- *   npm install framer-motion lucide-react react-hot-toast
- *
- * الاستخدام:
- *   import SundaySchool from "@/components/SundaySchool";
- *   <SundaySchool />
- *
- * ملاحظة: <Toaster /> مُضمّن داخل الكومبوننت نفسه للتبسيط. لو عندك Toaster
- * تاني في layout.js تقدر تشيله من هنا وتستخدم الموجود بس.
- */
-
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import {
   motion,
   useScroll,
